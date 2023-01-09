@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    margin: 30px;
+}
+
+ol {
+    width: 300px;
+    border: 1px solid black;
+    background: antiquewhite;
+}
+
+li {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+}
+
+li:hover {
+    background: #dae8fc;
+    border: 1px solid #6c8ebf;
+}
+
+.popUpPanel {
+    display: none;
+    width: 400px;
+    height: 400px;
+    background: #dae8fc;
+    border: 1px solid #6c8ebf;
+    padding: 20px;
+    text-align: center;
+}
